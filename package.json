@@ -1,0 +1,28 @@
+{
+  "name": "@mhyfritz/acronym",
+  "version": "0.1.0",
+  "description": "Find acronyms of a given phrase",
+  "module": "./esm/index.js",
+  "main": "./cjs/index.js",
+  "scripts": {
+    "build": "babel esm --out-dir cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "acronym",
+    "string"
+  ],
+  "author": {
+    "name": "Markus Hsi-Yang Fritz",
+    "email": "markus.h.y.fritz@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhyfritz/acronym.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
