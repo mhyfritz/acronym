@@ -1,6 +1,6 @@
 {
   "name": "@mhyfritz/acronym",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Find acronyms of a given phrase",
   "module": "./esm/index.js",
   "main": "./cjs/index.js",
